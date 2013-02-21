@@ -26,7 +26,7 @@
 //
 
 #import "ILDispatchQueueMatcher.h"
-#import <OCHamcrest/HCIsEqual.h>
+#import <OCHamcrestIOS/HCIsEqual.h>
 
 OBJC_EXPORT id<HCMatcher> HC_equalToDispatchQueue(dispatch_queue_t targetQueue) {
     return [HCIsEqual isEqualTo:[NSValue value:&targetQueue withObjCType:@encode(dispatch_queue_t)]];

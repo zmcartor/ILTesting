@@ -25,7 +25,7 @@
 //  WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 
-#import <OCHamcrest/HCAssertThat.h>
+#import <OCHamcrestIOS/HCAssertThat.h>
 
 #import "ILDispatchQueueAssert.h"
 

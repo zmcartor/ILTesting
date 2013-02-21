@@ -25,7 +25,7 @@
 //  WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 
-#import <OCHamcrest/HCBaseMatcher.h>
+#import <OCHamcrestIOS/HCBaseMatcher.h>
 
 OBJC_EXPORT id<HCMatcher> HC_equalToDispatchQueue(dispatch_queue_t targetQueue);
 
